@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Serif Pro:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="homepage">
+      <header class="frame-group">
+        <div class="frame-wrapper">
+          <div class="hafsas-portfolio-container">
+            <a class="hafsas-portfolio2">Hafsa’s Portfolio</a>
+            <img
+              class="line-icon"
+              loading="lazy"
+              alt=""
+              src="./public/line-1.svg"
+            />
+          </div>
+        </div>
+        <img
+          class="hayyafann-logo-12-removebg-icon"
+          loading="lazy"
+          alt=""
+          src="./public/hayyafann-logo---12-removebgpreview-1@2x.png"
+        />
+      </header>
+      <section class="hello-i-am-hafsa-fuad-abdalla-parent">
+        <h1 class="hello-i-am-container">
+          <span>Hello, I am </span>
+          <span class="hafsa-fuad-abdalla1">Hafsa Fuad Abdalla</span>
+        </h1>
+        <div class="frame-container">
+          <div class="i-am-mobile-application-develo-parent">
+            <div class="i-am-mobile-container">
+              <p class="i-am-mobile">
+                I am Mobile Application Developer, Marketer and an Artist
+              </p>
+              <p class="i-am-mobile">
+                Welcome to my portfolio, where I bring creativity, innovation
+                and strategy togther to build unique solutions.
+              </p>
+            </div>
+            <button class="explore-button-wrapper">
+              <div class="explore-button" id="exploreButtonContainer">
+                <div class="explore-my-portfolio">Explore My Portfolio</div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var exploreButtonContainer = document.getElementById("exploreButtonContainer");
+      if (exploreButtonContainer) {
+        exploreButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./about-me-page.html";
+        });
+      }
+    </script>
+  </body>
+</html>

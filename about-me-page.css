@@ -1,0 +1,487 @@
+.hafsas-portfolio1 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+}
+.frame-inner {
+  width: 174px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-orange);
+  box-sizing: border-box;
+}
+.hafsas-portfolio-group {
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+  flex-shrink: 0;
+}
+.home1 {
+  text-decoration: none;
+  height: 34px;
+  width: 125.9px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.about-me1 {
+  text-decoration: none;
+  width: 125.9px;
+  height: 34px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.about-me-link {
+  height: 34px;
+  width: 134.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-3xs-9) 0px 0px;
+  box-sizing: border-box;
+  color: var(--color-orange);
+}
+.resume1 {
+  text-decoration: none;
+  width: 125.9px;
+  height: 25px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.resume-link {
+  height: 25px;
+  width: 132.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xs-6) 0px 0px;
+  box-sizing: border-box;
+}
+.services1 {
+  text-decoration: none;
+  height: 25px;
+  width: 125.9px;
+  position: relative;
+  color: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.skills1 {
+  text-decoration: none;
+  height: 34px;
+  width: 125.9px;
+  position: relative;
+  color: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.contact1 {
+  width: 124.9px;
+  position: relative;
+  display: none;
+  color: var(--color-orange);
+}
+.navigation1 {
+  height: 34px;
+  width: 760px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  text-align: center;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-487xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-source-serif-pro);
+}
+.my-personal-photo {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.photo-container {
+  height: 747px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.me {
+  color: var(--color-orange);
+}
+.about-me2 {
+  margin: 0;
+  width: 600px;
+  position: relative;
+  font-size: var(--font-size-61xl);
+  font-weight: 700;
+  font-family: var(--font-playfair-display);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.i-am {
+  font-family: var(--font-source-serif-pro);
+}
+.i-am-hafsa-fuad-abdalla-a-dyn {
+  margin: 0;
+}
+.about-me-message-container {
+  height: 254px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.about-message-container {
+  width: 597px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 70px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.about-me-message-container1 {
+  position: relative;
+}
+.second-paragraph {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.about-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+}
+.image-removebg-preview-5-1 {
+  width: 47.4px;
+  height: 41.7px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-removebg-preview-5-1-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-3) 0px 0px;
+}
+.image-removebg-preview-6-1 {
+  width: 41.8px;
+  height: 41.7px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-removebg-preview-6-1-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs) 0px 0px;
+}
+.new-art-club-logo-1 {
+  width: 41.8px;
+  height: 40.4px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.logo-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-3) 11px 0px 0px;
+}
+.image-removebg-preview-7-1 {
+  width: 43.7px;
+  height: 40.4px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.logo-caption1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-3) var(--padding-8xs) 0px 0px;
+}
+.logo-container-child {
+  height: 45px;
+  width: 43.7px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.logo-container {
+  width: 355px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.logo-container-wrapper {
+  width: 573px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.about {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 43px;
+  min-width: 411px;
+  max-width: 100%;
+}
+.profile {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 94px;
+  max-width: 100%;
+}
+.profile-wrapper {
+  width: 1315px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-source-serif-pro);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 65px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.september-2022-present2 {
+  margin: 0;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.experience5 {
+  width: 742px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.experience-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 71px 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.about-me-page {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #260000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) 0px 131px var(--padding-26xl);
+  box-sizing: border-box;
+  gap: 546px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-orange);
+  font-family: var(--font-source-serif-pro);
+}
+
+@media screen and (max-width: 1400px) {
+  .content {
+    gap: var(--gap-234xl);
+  }
+
+  .main {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .experience-wrapper {
+    flex: 1;
+  }
+
+  .about-me-page {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navigation1 {
+    display: none;
+  }
+
+  .my-personal-photo {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .photo-container {
+    flex: 1;
+  }
+
+  .profile {
+    flex-wrap: wrap;
+  }
+
+  .experience-wrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .content {
+    gap: var(--gap-107xl);
+  }
+
+  .photo-container {
+    min-width: 100%;
+  }
+
+  .about-me2 {
+    font-size: var(--font-size-21xl);
+  }
+
+  .about-message-container {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+
+  .about-content {
+    gap: var(--gap-7xl);
+  }
+
+  .about {
+    gap: var(--gap-2xl);
+    min-width: 100%;
+  }
+
+  .profile {
+    gap: 47px;
+  }
+
+  .main {
+    gap: 32px;
+  }
+
+  .about-me-page {
+    gap: 273px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .content {
+    gap: var(--gap-44xl);
+  }
+
+  .about-me2 {
+    font-size: var(--font-size-5xl);
+  }
+
+  .about-me-message-container {
+    font-size: var(--font-size-xl);
+  }
+
+  .about-me-message-container1 {
+    font-size: var(--font-size-xl);
+  }
+
+  .logo-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile {
+    gap: 23px;
+  }
+
+  .main {
+    gap: var(--gap-base);
+  }
+
+  .experience5 {
+    font-size: var(--font-size-xl);
+  }
+
+  .about-me-page {
+    gap: 136px;
+  }
+}

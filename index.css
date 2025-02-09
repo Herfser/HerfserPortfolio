@@ -1,0 +1,200 @@
+.hafsas-portfolio2 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+}
+.line-icon {
+  width: 171px;
+  height: 0px;
+  position: relative;
+  object-fit: contain;
+}
+.hafsas-portfolio-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.5px;
+}
+.frame-wrapper {
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) 0px 0px;
+  box-sizing: border-box;
+}
+.hayyafann-logo-12-removebg-icon {
+  height: 136px;
+  width: 170px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-group {
+  width: 1371px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-source-serif-pro);
+}
+.hafsa-fuad-abdalla1 {
+  color: var(--color-orange);
+}
+.hello-i-am-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.i-am-mobile {
+  margin: 0;
+}
+.i-am-mobile-container {
+  align-self: stretch;
+  position: relative;
+}
+.explore-my-portfolio {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-source-serif-pro);
+  color: var(--color-gray);
+  text-align: left;
+}
+.explore-button {
+  height: 64px;
+  flex: 1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-orange);
+  border: 1px solid var(--color-orange);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 18px var(--padding-base) var(--padding-2xl);
+  cursor: pointer;
+}
+.explore-button-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0px 496px 0px 495px;
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.i-am-mobile-application-develo-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 66px;
+  max-width: 100%;
+}
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-60xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-source-serif-pro);
+}
+.hello-i-am-hafsa-fuad-abdalla-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-3xl) 306px;
+  gap: 206px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .frame-container {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hello-i-am-container {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .i-am-mobile-application-develo-parent {
+    gap: var(--gap-14xl);
+  }
+
+  .hello-i-am-hafsa-fuad-abdalla-parent {
+    gap: var(--gap-7xl);
+  }
+
+  .homepage {
+    gap: 103px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hello-i-am-container {
+    font-size: var(--font-size-5xl);
+  }
+
+  .i-am-mobile-container {
+    font-size: var(--font-size-xl);
+  }
+
+  .explore-button-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .i-am-mobile-application-develo-parent {
+    gap: var(--gap-base);
+  }
+
+  .homepage {
+    gap: 51px;
+  }
+}

@@ -1,0 +1,402 @@
+.hafsas-portfolio2 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+}
+.frame-inner {
+  width: 174px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-orange);
+  box-sizing: border-box;
+}
+.hafsas-portfolio-container {
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+  flex-shrink: 0;
+}
+.home1 {
+  text-decoration: none;
+  height: 34px;
+  width: 125.9px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.about-me2 {
+  text-decoration: none;
+  width: 125.9px;
+  height: 34px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.about-me-wrapper {
+  height: 34px;
+  width: 134.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-3xs-9) 0px 0px;
+  box-sizing: border-box;
+}
+.resume1 {
+  text-decoration: none;
+  width: 125.9px;
+  height: 25px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.resume-wrapper {
+  height: 25px;
+  width: 132.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xs-6) 0px 0px;
+  box-sizing: border-box;
+  color: var(--color-orange);
+}
+.services1 {
+  text-decoration: none;
+  height: 25px;
+  width: 125.9px;
+  position: relative;
+  color: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.skills1 {
+  text-decoration: none;
+  height: 34px;
+  width: 125.9px;
+  position: relative;
+  color: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.contact1 {
+  width: 124.9px;
+  position: relative;
+  display: none;
+  color: var(--color-orange);
+}
+.navigation1 {
+  height: 34px;
+  width: 760px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  text-align: center;
+}
+.frame-group {
+  width: 1395px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-487xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-source-serif-pro);
+}
+.experience1 {
+  color: var(--color-orange);
+}
+.my-experience {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.my-experience-wrapper {
+  width: 1373px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 386px 0px 387px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.team-lead-aiesec-in-strathmor {
+  margin: 0;
+}
+.experience {
+  position: relative;
+}
+.th-january-2025-present {
+  margin: 0;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.experience3 {
+  align-self: stretch;
+  height: 162px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-left: var(--padding-8xs);
+}
+.experience-parent {
+  width: 666px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 194px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.group-icon {
+  width: 20px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.frame-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-xs);
+  flex-shrink: 0;
+}
+.experience-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 150px;
+}
+.experience5 {
+  width: 712px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.download-my-cv {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-source-serif-pro);
+  color: var(--color-gray);
+  text-align: left;
+}
+.download-button {
+  height: 64px;
+  flex: 1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-orange);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-15xl) var(--padding-base)
+    var(--padding-19xl);
+  cursor: pointer;
+}
+.download-button-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0px 249px 0px 248px;
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frame-wrapper1 {
+  width: 742px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 41px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+}
+.frame-section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 11.5px;
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-9xl);
+  color: var(--color-orange);
+  font-family: var(--font-source-serif-pro);
+}
+.frame-main {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+}
+.my-resume-page {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #260000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) 0px var(--padding-19xl) var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1350px) {
+  .frame-group {
+    gap: var(--gap-234xl);
+  }
+
+  .my-experience-wrapper {
+    padding-left: var(--padding-174xl);
+    padding-right: var(--padding-174xl);
+    box-sizing: border-box;
+  }
+
+  .frame-section {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .navigation1 {
+    display: none;
+  }
+
+  .frame-group {
+    width: 635px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frame-group {
+    gap: var(--gap-107xl);
+  }
+
+  .my-experience {
+    font-size: var(--font-size-21xl);
+  }
+
+  .my-experience-wrapper {
+    padding-left: var(--padding-77xl);
+    padding-right: var(--padding-77xl);
+    box-sizing: border-box;
+  }
+
+  .experience-parent {
+    gap: 97px;
+  }
+
+  .frame-wrapper1 {
+    padding-bottom: 27px;
+    box-sizing: border-box;
+  }
+
+  .my-resume-page {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-group {
+    gap: var(--gap-44xl);
+  }
+
+  .my-experience {
+    font-size: var(--font-size-5xl);
+  }
+
+  .my-experience-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .experience {
+    font-size: var(--font-size-xl);
+  }
+
+  .experience3 {
+    font-size: var(--font-size-xl);
+  }
+
+  .experience-parent {
+    gap: var(--gap-29xl);
+  }
+
+  .experience-container {
+    padding-bottom: 97px;
+    box-sizing: border-box;
+  }
+
+  .experience5 {
+    font-size: var(--font-size-xl);
+  }
+
+  .download-button-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

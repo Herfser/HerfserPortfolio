@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./my-resume-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Serif Pro:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="my-resume-page">
+      <header class="frame-group">
+        <div class="hafsas-portfolio-container">
+          <a class="hafsas-portfolio2">Hafsa’s Portfolio</a>
+          <div class="frame-inner"></div>
+        </div>
+        <div class="navigation1">
+          <a class="home1" id="homeText">Home </a>
+          <div class="about-me-wrapper">
+            <a class="about-me2" id="aboutMeText">About Me</a>
+          </div>
+          <div class="resume-wrapper">
+            <a class="resume1" id="resumeText">Experience</a>
+          </div>
+          <a class="services1" id="servicesText"> Area Focus</a>
+          <a class="skills1" id="skillsText"> Contact</a>
+          <b class="contact1">Contact</b>
+        </div>
+      </header>
+      <main class="frame-main">
+        <section class="my-experience-wrapper">
+          <h1 class="my-experience">
+            <span>My </span>
+            <span class="experience1">Experience</span>
+          </h1>
+        </section>
+        <section class="frame-section">
+          <div class="experience-parent">
+            <div class="experience">
+              <p class="team-lead-aiesec-in-strathmor">
+                <b>
+                  <span>Team Lead, AIESEC in Strathmore University</span>
+                </b>
+              </p>
+              <p class="th-january-2025-present">
+                <span>
+                  <b>September 2023 - September 2024</b>
+                </span>
+              </p>
+              <p class="team-lead-aiesec-in-strathmor">
+                <span>
+                  <span
+                    >Started as a member in marketing and sales, contributing to
+                    events and promotions. Promoted to Marketing Team Leader,
+                    leading strategy development and boosting AIESEC program
+                    sales.</span
+                  >
+                </span>
+              </p>
+            </div>
+            <div class="experience3">
+              <p class="team-lead-aiesec-in-strathmor">
+                <b>
+                  <span>Class Representative, Strathmore University</span>
+                </b>
+              </p>
+              <p class="th-january-2025-present">
+                <span>
+                  <b>September 2022 - Present</b>
+                </span>
+              </p>
+              <p class="team-lead-aiesec-in-strathmor">
+                <span>
+                  <span
+                    >Act as a liaison between students and faculty, addressing
+                    concerns and facilitating communication. Advocate for
+                    student concerns and ensure timely resolution of
+                    issues.</span
+                  >
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="frame-div">
+            <img
+              class="group-icon"
+              loading="lazy"
+              alt=""
+              src="./public/group-12.svg"
+            />
+          </div>
+          <div class="frame-wrapper1">
+            <div class="frame-parent1">
+              <div class="experience-container">
+                <div class="experience">
+                  <p class="team-lead-aiesec-in-strathmor">
+                    <b>
+                      <span>Attache, Konza Technopolis</span>
+                    </b>
+                  </p>
+                  <p class="th-january-2025-present">
+                    <span>
+                      <b>15th January 2025 - Present</b>
+                    </span>
+                  </p>
+                  <p class="team-lead-aiesec-in-strathmor">
+                    <span>
+                      <span
+                        >Gained experience in UI design using Figma, application
+                        development, and system documentation. Worked with tech
+                        stacks contributing to DevOps projects and enhancing my
+                        skills.</span
+                      >
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="experience5">
+                <p class="team-lead-aiesec-in-strathmor">
+                  <b>
+                    <span>President of Art Club, Strathmore University</span>
+                  </b>
+                </p>
+                <p class="th-january-2025-present">
+                  <span>
+                    <b>September 2022 - Present</b>
+                  </span>
+                </p>
+                <p class="team-lead-aiesec-in-strathmor">
+                  <span>
+                    <span
+                      >Began as a member, actively participating in club
+                      activities and projects. Promoted to President in December
+                      2023, where I lead the club in successful collaborations
+                      with other organizations, significantly enhancing the
+                      club’s financial standing.</span
+                    >
+                  </span>
+                </p>
+              </div>
+              <button class="download-button-wrapper">
+                <div class="download-button" id="downloadButtonContainer">
+                  <div class="download-my-cv">Download my CV</div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./homepage.html";
+        });
+      }
+
+      var aboutMeText = document.getElementById("aboutMeText");
+      if (aboutMeText) {
+        aboutMeText.addEventListener("click", function (e) {
+          window.location.href = "./about-me-page.html";
+        });
+      }
+
+      var resumeText = document.getElementById("resumeText");
+      if (resumeText) {
+        resumeText.addEventListener("click", function (e) {
+          window.location.href = "my-resume-page.html";
+        });
+      }
+
+      var servicesText = document.getElementById("servicesText");
+      if (servicesText) {
+        servicesText.addEventListener("click", function (e) {
+          window.location.href = "./service-page.html";
+        });
+      }
+
+      var skillsText = document.getElementById("skillsText");
+      if (skillsText) {
+        skillsText.addEventListener("click", function (e) {
+          window.location.href = "./contact-page.html";
+        });
+      }
+
+      var downloadButtonContainer = document.getElementById(
+        "downloadButtonContainer"
+      );
+      if (downloadButtonContainer) {
+        downloadButtonContainer.addEventListener("click", function () {
+          window.open(
+            "https://drive.google.com/file/d/1zYlBxplyEH4ngKz2Txo27iiOAs28El6T/view?usp=sharing"
+          );
+        });
+      }
+    </script>
+  </body>
+</html>
