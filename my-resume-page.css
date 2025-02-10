@@ -1,4 +1,4 @@
-.hafsas-portfolio2 {
+.hafsas-portfolio1 {
   text-decoration: none;
   align-self: stretch;
   position: relative;
@@ -11,7 +11,7 @@
   border-top: 3px solid var(--color-orange);
   box-sizing: border-box;
 }
-.hafsas-portfolio-container {
+.hafsas-portfolio-group {
   width: 219px;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
   gap: var(--gap-10xs);
   flex-shrink: 0;
 }
-.home1 {
+.home2 {
   text-decoration: none;
   height: 34px;
   width: 125.9px;
@@ -32,7 +32,7 @@
   flex-shrink: 0;
   cursor: pointer;
 }
-.about-me2 {
+.about-me3 {
   text-decoration: none;
   width: 125.9px;
   height: 34px;
@@ -42,7 +42,7 @@
   flex-shrink: 0;
   cursor: pointer;
 }
-.about-me-wrapper {
+.about-me-container {
   height: 34px;
   width: 134.8px;
   display: flex;
@@ -52,7 +52,7 @@
   padding: 0px var(--padding-3xs-9) 0px 0px;
   box-sizing: border-box;
 }
-.resume1 {
+.resume2 {
   text-decoration: none;
   width: 125.9px;
   height: 25px;
@@ -63,7 +63,7 @@
   flex-shrink: 0;
   cursor: pointer;
 }
-.resume-wrapper {
+.resume-container {
   height: 25px;
   width: 132.5px;
   display: flex;
@@ -74,7 +74,7 @@
   box-sizing: border-box;
   color: var(--color-orange);
 }
-.services1 {
+.services2 {
   text-decoration: none;
   height: 25px;
   width: 125.9px;
@@ -85,7 +85,7 @@
   flex-shrink: 0;
   cursor: pointer;
 }
-.skills1 {
+.skills2 {
   text-decoration: none;
   height: 34px;
   width: 125.9px;
@@ -96,13 +96,13 @@
   flex-shrink: 0;
   cursor: pointer;
 }
-.contact1 {
+.contact2 {
   width: 124.9px;
   position: relative;
   display: none;
   color: var(--color-orange);
 }
-.navigation1 {
+.navigation2 {
   height: 34px;
   width: 760px;
   display: flex;
@@ -112,7 +112,7 @@
   flex-shrink: 0;
   text-align: center;
 }
-.frame-group {
+.frame-parent {
   width: 1395px;
   display: flex;
   flex-direction: row;
@@ -182,7 +182,7 @@
   flex-shrink: 0;
   max-width: 100%;
 }
-.group-icon {
+.frame-inner {
   width: 20px;
   flex: 1;
   position: relative;
@@ -213,7 +213,7 @@
 }
 .download-my-cv {
   position: relative;
-  font-size: var(--font-size-3xl);
+  font-size: 22px;
   font-family: var(--font-source-serif-pro);
   color: var(--color-gray);
   text-align: left;
@@ -301,13 +301,13 @@
   justify-content: flex-start;
   padding: var(--padding-28xl) 0px var(--padding-19xl) var(--padding-8xs);
   box-sizing: border-box;
-  gap: var(--gap-14xl);
+  gap: 33px;
   line-height: normal;
   letter-spacing: normal;
 }
 
 @media screen and (max-width: 1350px) {
-  .frame-group {
+  .frame-parent {
     gap: var(--gap-234xl);
   }
 
@@ -322,16 +322,16 @@
   }
 }
 @media screen and (max-width: 1125px) {
-  .navigation1 {
+  .navigation2 {
     display: none;
   }
 
-  .frame-group {
+  .frame-parent {
     width: 635px;
   }
 }
 @media screen and (max-width: 800px) {
-  .frame-group {
+  .frame-parent {
     gap: var(--gap-107xl);
   }
 
@@ -359,7 +359,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .frame-group {
+  .frame-parent {
     gap: var(--gap-44xl);
   }
 

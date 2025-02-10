@@ -1,47 +1,116 @@
-.hafsas-portfolio2 {
+.hayyafann-logo-12-removebg-icon {
+  height: 136px;
+  width: 170px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.home2 {
   text-decoration: none;
-  align-self: stretch;
+  height: 34px;
+  width: 125.9px;
+  position: relative;
+  font-weight: 700;
+  color: var(--color-orange);
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.about-me3 {
+  text-decoration: none;
+  width: 125.9px;
+  height: 34px;
   position: relative;
   color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
 }
-.line-icon {
-  width: 171px;
-  height: 0px;
-  position: relative;
-  object-fit: contain;
-}
-.hafsas-portfolio-container {
-  align-self: stretch;
+.about-me-container {
+  height: 34px;
+  width: 134.8px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 4.5px;
+  padding: 0px var(--padding-3xs-9) 0px 0px;
+  box-sizing: border-box;
 }
-.frame-wrapper {
-  width: 219px;
+.resume2 {
+  text-decoration: none;
+  width: 125.9px;
+  height: 25px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.resume-container {
+  height: 25px;
+  width: 132.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xs-6) 0px 0px;
+  box-sizing: border-box;
+}
+.services2 {
+  text-decoration: none;
+  height: 25px;
+  width: 125.9px;
+  position: relative;
+  color: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.skills2 {
+  text-decoration: none;
+  height: 34px;
+  width: 125.9px;
+  position: relative;
+  color: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.contact2 {
+  width: 124.9px;
+  position: relative;
+  display: none;
+  color: var(--color-orange);
+}
+.navigation2 {
+  width: 760px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.navigation-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-15xl) 0px 0px;
   box-sizing: border-box;
+  max-width: 100%;
 }
-.hayyafann-logo-12-removebg-icon {
-  height: 136px;
-  width: 170px;
-  position: relative;
-  object-fit: cover;
-}
-.frame-group {
-  width: 1371px;
+.hayyafann-logo-12-removebg-parent {
+  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: var(--gap-xl);
+  justify-content: flex-start;
+  gap: 577px;
   max-width: 100%;
-  text-align: left;
+  text-align: center;
   font-size: var(--font-size-xl);
   color: var(--color-white);
   font-family: var(--font-source-serif-pro);
@@ -61,71 +130,30 @@
   margin: 0;
 }
 .i-am-mobile-container {
-  align-self: stretch;
-  position: relative;
-}
-.explore-my-portfolio {
-  position: relative;
-  font-size: var(--font-size-3xl);
-  font-family: var(--font-source-serif-pro);
-  color: var(--color-gray);
-  text-align: left;
-}
-.explore-button {
-  height: 64px;
   flex: 1;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-3xs);
-  background-color: var(--color-orange);
-  border: 1px solid var(--color-orange);
-  box-sizing: border-box;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-base) 18px var(--padding-base) var(--padding-2xl);
-  cursor: pointer;
-}
-.explore-button-wrapper {
-  cursor: pointer;
-  border: none;
-  padding: 0px 496px 0px 495px;
-  background-color: transparent;
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-}
-.i-am-mobile-application-develo-parent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 66px;
+  position: relative;
+  display: inline-block;
   max-width: 100%;
 }
-.frame-container {
-  align-self: stretch;
+.i-am-mobile-application-develo-wrapper {
+  width: 1382px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0px var(--padding-60xl);
+  justify-content: flex-end;
+  padding: 0px 73px 0px 72px;
   box-sizing: border-box;
   max-width: 100%;
   font-size: var(--font-size-6xl);
   font-family: var(--font-source-serif-pro);
 }
 .hello-i-am-hafsa-fuad-abdalla-parent {
-  align-self: stretch;
+  width: 1394px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: flex-start;
-  gap: var(--gap-33xl);
+  gap: var(--gap-28xl);
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-61xl);
@@ -142,40 +170,52 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-2xl) var(--padding-3xl) 306px;
-  gap: 206px;
+  padding: var(--padding-26xl) 0px 381px 21px;
+  gap: 242px;
   line-height: normal;
   letter-spacing: normal;
 }
 
 @media screen and (max-width: 1200px) {
-  .frame-container {
-    padding-left: var(--padding-20xl);
-    padding-right: var(--padding-20xl);
+  .hayyafann-logo-12-removebg-parent {
+    gap: 288px;
+  }
+
+  .i-am-mobile-application-develo-wrapper {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1050px) {
+  .navigation2 {
+    display: none;
+  }
+
   .hello-i-am-container {
     font-size: var(--font-size-21xl);
   }
 }
 @media screen and (max-width: 750px) {
-  .i-am-mobile-application-develo-parent {
-    gap: var(--gap-14xl);
+  .hayyafann-logo-12-removebg-parent {
+    gap: 144px;
   }
 
   .hello-i-am-hafsa-fuad-abdalla-parent {
-    gap: var(--gap-7xl);
+    gap: var(--gap-4xl);
   }
 
   .homepage {
-    gap: 103px;
+    gap: 121px;
   }
 }
 @media screen and (max-width: 450px) {
+  .hayyafann-logo-12-removebg-parent {
+    gap: 72px;
+  }
+
   .hello-i-am-container {
     font-size: var(--font-size-5xl);
   }
@@ -184,17 +224,7 @@
     font-size: var(--font-size-xl);
   }
 
-  .explore-button-wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-
-  .i-am-mobile-application-develo-parent {
-    gap: var(--gap-base);
-  }
-
   .homepage {
-    gap: 51px;
+    gap: 60px;
   }
 }

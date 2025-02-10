@@ -9,7 +9,6 @@ body {
   --font-playfair-display: "Playfair Display";
 
   /* font sizes */
-  --font-size-3xl: 22px;
   --font-size-xl: 20px;
   --font-size-6xl: 25px;
   --font-size-9xl: 28px;
@@ -26,7 +25,6 @@ body {
   --color-midnightblue: #000038;
 
   /* Gaps */
-  --gap-14xl: 33px;
   --gap-base: 16px;
   --gap-7xs: 6px;
   --gap-29xl: 48px;
@@ -35,10 +33,9 @@ body {
   --gap-107xl: 126px;
   --gap-234xl: 253px;
   --gap-10xs: 3px;
+  --gap-28xl: 47px;
+  --gap-4xl: 23px;
   --gap-2xl: 21px;
-  --gap-xl: 20px;
-  --gap-33xl: 52px;
-  --gap-7xl: 26px;
   --gap-39xl: 58px;
   --gap-10xl: 29px;
   --gap-lgi: 19px;
@@ -59,16 +56,15 @@ body {
   --padding-26xl: 45px;
   --padding-11xs-3: 1.3px;
   --padding-16xl: 35px;
-  --padding-2xl: 21px;
+  --padding-17xl: 36px;
   --padding-3xl: 22px;
-  --padding-60xl: 79px;
-  --padding-20xl: 39px;
   --padding-18xl: 37px;
   --padding-14xl: 33px;
   --padding-5xl: 24px;
   --padding-10xl: 29px;
   --padding-5xs-4: 7.4px;
   --padding-140xl: 159px;
+  --padding-60xl: 79px;
 
   /* Border radiuses */
   --br-3xs: 10px;
