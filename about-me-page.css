@@ -196,7 +196,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-33xl);
+  gap: 52px;
   max-width: 100%;
 }
 .image-removebg-preview-5-1 {
@@ -269,7 +269,7 @@
   align-items: flex-start;
   justify-content: space-between;
   max-width: 100%;
-  gap: var(--gap-xl);
+  gap: 20px;
 }
 .logo-container-wrapper {
   width: 573px;
@@ -427,7 +427,7 @@
   }
 
   .about-content {
-    gap: var(--gap-7xl);
+    gap: 26px;
   }
 
   .about {
@@ -436,7 +436,7 @@
   }
 
   .profile {
-    gap: 47px;
+    gap: var(--gap-28xl);
   }
 
   .main {
@@ -470,7 +470,7 @@
   }
 
   .profile {
-    gap: 23px;
+    gap: var(--gap-4xl);
   }
 
   .main {

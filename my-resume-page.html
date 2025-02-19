@@ -17,22 +17,22 @@
   </head>
   <body>
     <div class="my-resume-page">
-      <header class="frame-group">
-        <div class="hafsas-portfolio-container">
-          <a class="hafsas-portfolio2">Hafsa’s Portfolio</a>
-          <div class="frame-inner"></div>
+      <header class="frame-parent">
+        <div class="hafsas-portfolio-parent">
+          <a class="hafsas-portfolio">Hafsa’s Portfolio</a>
+          <div class="frame-child"></div>
         </div>
-        <div class="navigation1">
-          <a class="home1" id="homeText">Home </a>
+        <div class="navigation">
+          <a class="home" id="homeText">Home </a>
           <div class="about-me-wrapper">
-            <a class="about-me2" id="aboutMeText">About Me</a>
+            <a class="about-me" id="aboutMeText">About Me</a>
           </div>
           <div class="resume-wrapper">
-            <a class="resume1" id="resumeText">Experience</a>
+            <a class="resume" id="resumeText">Experience</a>
           </div>
-          <a class="services1" id="servicesText"> Area Focus</a>
-          <a class="skills1" id="skillsText"> Contact</a>
-          <b class="contact1">Contact</b>
+          <a class="services" id="servicesText"> Area Focus</a>
+          <a class="skills" id="skillsText"> Contact</a>
+          <b class="contact">Contact</b>
         </div>
       </header>
       <main class="experience-content-parent">
@@ -91,7 +91,7 @@
           </div>
           <div class="experience-list-inner">
             <img
-              class="group-icon"
+              class="frame-item"
               loading="lazy"
               alt=""
               src="./public/group-12.svg"
@@ -123,7 +123,7 @@
                   </p>
                 </div>
               </div>
-              <div class="experience5">
+              <div class="experience4">
                 <p class="team-lead-aiesec-in-strathmor">
                   <b>
                     <span>President of Art Club, Strathmore University</span>
@@ -161,38 +161,38 @@
       var homeText = document.getElementById("homeText");
       if (homeText) {
         homeText.addEventListener("click", function (e) {
-          window.location.href = "./homepage.html";
+          window.location.href = "./index.html";
         });
       }
-
+      
       var aboutMeText = document.getElementById("aboutMeText");
       if (aboutMeText) {
         aboutMeText.addEventListener("click", function (e) {
           window.location.href = "./about-me-page.html";
         });
       }
-
+      
       var resumeText = document.getElementById("resumeText");
       if (resumeText) {
         resumeText.addEventListener("click", function (e) {
           window.location.href = "my-resume-page.html";
         });
       }
-
+      
       var servicesText = document.getElementById("servicesText");
       if (servicesText) {
         servicesText.addEventListener("click", function (e) {
           window.location.href = "./service-page.html";
         });
       }
-
+      
       var skillsText = document.getElementById("skillsText");
       if (skillsText) {
         skillsText.addEventListener("click", function (e) {
           window.location.href = "./contact-page.html";
         });
       }
-
+      
       var downloadButtonContainer = document.getElementById(
         "downloadButtonContainer"
       );
@@ -203,6 +203,6 @@
           );
         });
       }
-    </script>
+      </script>
   </body>
 </html>

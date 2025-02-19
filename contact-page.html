@@ -17,26 +17,26 @@
   </head>
   <body>
     <div class="contact-page">
-      <header class="frame-header">
-        <div class="frame-div">
-          <a class="hafsas-portfolio3">Hafsa’s Portfolio</a>
+      <header class="frame-group">
+        <div class="hafsas-portfolio-container">
+          <a class="hafsas-portfolio2">Hafsa’s Portfolio</a>
           <div class="line-div"></div>
         </div>
-        <div class="navigation2">
-          <a class="home2" id="homeText">Home </a>
-          <div class="about-me-container">
-            <a class="about-me3" id="aboutMeText">About Me</a>
+        <div class="navigation3">
+          <a class="home3" id="homeText">Home </a>
+          <div class="about-me-frame">
+            <a class="about-me4" id="aboutMeText">About Me</a>
           </div>
-          <div class="resume-container">
-            <a class="resume2" id="resumeText">Experience</a>
+          <div class="resume-frame">
+            <a class="resume3" id="resumeText">Experience</a>
           </div>
-          <a class="services2" id="servicesText"> Area Focus</a>
-          <a class="skills2"> Contact</a>
-          <b class="contact2">Contact</b>
+          <a class="services3" id="servicesText"> Area Focus</a>
+          <a class="skills3"> Contact</a>
+          <b class="contact3">Contact</b>
         </div>
       </header>
       <section class="contact-page-inner">
-        <div class="frame-parent1">
+        <div class="frame-container">
           <div class="heading-wrapper">
             <h1 class="heading">
               <span>Contact </span>
@@ -46,7 +46,7 @@
           <div class="line-wrapper">
             <div class="frame-child1"></div>
           </div>
-          <div class="frame-parent2">
+          <div class="frame-div">
             <div class="technical-skills-wrapper">
               <img
                 class="technical-skills-icon"
@@ -69,7 +69,7 @@
                   <li>Email Address: herfser03@gmail.com</li>
                 </ul>
               </div>
-              <div class="frame-wrapper1">
+              <div class="frame-wrapper">
                 <div class="download-button-parent">
                   <button class="download-button1" id="downloadButton">
                     <img
@@ -105,44 +105,44 @@
       var homeText = document.getElementById("homeText");
       if (homeText) {
         homeText.addEventListener("click", function (e) {
-          window.location.href = "./homepage.html";
+          window.location.href = "./index.html";
         });
       }
-
+      
       var aboutMeText = document.getElementById("aboutMeText");
       if (aboutMeText) {
         aboutMeText.addEventListener("click", function (e) {
           window.location.href = "./about-me-page.html";
         });
       }
-
+      
       var resumeText = document.getElementById("resumeText");
       if (resumeText) {
         resumeText.addEventListener("click", function (e) {
           window.location.href = "my-resume-page.html";
         });
       }
-
+      
       var servicesText = document.getElementById("servicesText");
       if (servicesText) {
         servicesText.addEventListener("click", function (e) {
           window.location.href = "./service-page.html";
         });
       }
-
+      
       var downloadButton = document.getElementById("downloadButton");
       if (downloadButton) {
         downloadButton.addEventListener("click", function () {
           window.location.href = "mailto:herfser03@gmail.com?subject=Inquiry";
         });
       }
-
+      
       var downloadButton1 = document.getElementById("downloadButton1");
       if (downloadButton1) {
         downloadButton1.addEventListener("click", function () {
           window.open("https://wa.me/254113776609");
         });
       }
-    </script>
+      </script>
   </body>
 </html>
